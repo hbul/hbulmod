@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "hbulmod:hb_block",
+    "hbulmod:hb_ore"
+  ]
+}

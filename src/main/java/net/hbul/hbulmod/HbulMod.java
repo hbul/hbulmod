@@ -4,6 +4,16 @@ package net.hbul.hbulmod;
 import net.hbul.hbulmod.block.ModBlocks;
 import net.hbul.hbulmod.item.ModCreativeModeTabs;
 import net.hbul.hbulmod.item.Modsitem;
+import net.hbul.hbulmod.item.custom.ModArmorItem;
+import net.hbul.hbulmod.item.custom.ModArmorMaterials;
+import net.hbul.hbulmod.item.util.ModTags;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.neoforged.neoforge.event.level.NoteBlockEvent;
+import net.neoforged.neoforge.event.tick.EntityTickEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -96,4 +106,12 @@ public class HbulMod {
         public static void onClientSetup(FMLClientSetupEvent event) {
         }
     }
+    @SubscribeEvent
+    public void onEntityTick(EntityTickEvent.Post event) {
+        if (!(event.getEntity() instanceof Player entity)) return;
+        if (entity.getInventory().getArmor(0).is(Modsitem.SUNDER_BOOTS) && entity.getRandom().nextInt(4) == 0) {
+            entity.level().addParticle(ParticleTypes.HEART, entity.getRandomX(0.5), entity.getRandomY(), entity.getRandomZ(0.5), 1.0, 1.0, 1.0);
+        }
+    }
+
 }

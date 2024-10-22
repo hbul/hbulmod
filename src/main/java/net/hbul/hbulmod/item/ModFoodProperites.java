@@ -1,5 +1,7 @@
 package net.hbul.hbulmod.item;
 
+import com.google.gson.internal.bind.JsonAdapterAnnotationTypeAdapterFactory;
+import net.minecraft.core.particles.ParticleType;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
@@ -13,4 +15,6 @@ public class ModFoodProperites {
             .effect(new MobEffectInstance(MobEffects.JUMP,3000,10),1.0f)
             .effect(() -> new MobEffectInstance(MobEffects.HEALTH_BOOST, 400), 0.35f).build();
 
-}
+    }
+
+

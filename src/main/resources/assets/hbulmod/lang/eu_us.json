@@ -6,5 +6,21 @@
   "item.hbulmod.hanastick": "HANASTICK",
   "block.hbulmod.hb_block": "BLOCK Of HB",
   "item.hbulmod.hb": "HB",
-  "block.hbulmod.hb_ore": "HB ore"
+  "block.hbulmod.hb_ore": "HB ore",
+  "item.hbulmod.pp": "PP",
+  "item.hbulmod.hb_sword": "HB_SWORD",
+  "item.hbulmod.hb_pickaxe": "HB_PICKAXE",
+  "item.hbulmod.hb_axe": "HB_AXE",
+  "item.hbulmod.hb_shovel": "HB_SHOVEL",
+  "item.hbulmod.hb_hoe": "HB_HOE",
+  "item.hbulmod.hb_helmet": "HB_HELMET",
+  "item.hbulmod.hb_chestplate": "HB_CHESTPLATE",
+  "item.hbulmod.hb_boots": "HB_BOOTS",
+  "item.hbulmod.hb_leggings": "HB_LEGGINGS",
+  "item.hbulmod.kokoro": "kokoro",
+  "item.hbulmod.sunder": "sunder",
+  "item.hbulmod.sunder_helmet": "sunder_helmet",
+  "item.hbulmod.sunder_chestplate": "sunder_chestplate",
+  "item.hbulmod.sunder_leggings": "sunder_leggings",
+  "item.hbulmod.sunder_boots": "sunder_boots"
 }

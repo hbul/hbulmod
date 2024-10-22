@@ -23,6 +23,26 @@ public class ModCreativeModeTabs {
                         output.accept(Modsitem.KUERUSIRU);
                         output.accept(Modsitem.HANASTICK);
                         output.accept(Modsitem.HB);
+                        output.accept(Modsitem.PP);
+                        output.accept(Modsitem.HB_SWORD);
+                        output.accept(Modsitem.HB_AXE);
+                        output.accept(Modsitem.HB_Hoe);
+                        output.accept(Modsitem.HB_PICKAXE);
+                        output.accept(Modsitem.HB_SHOVEL);
+                        output.accept(Modsitem.KOKORO);
+                        output.accept(Modsitem.SUNDER);
+                        output.accept(Modsitem.MIZU);
+
+                        output.accept(Modsitem.HB_HELMET);
+                        output.accept(Modsitem.HB_LEGGINGS);
+                        output.accept(Modsitem.HB_CHESTPLATE);
+                        output.accept(Modsitem.HB_BOOTS);
+
+                        output.accept(Modsitem.SUNDER_BOOTS);
+                        output.accept(Modsitem.SUNDER_CHESTPLATE);
+                        output.accept(Modsitem.SUNDER_HELMET);
+                        output.accept(Modsitem.SUNDER_LEGGINGS);
+
                     }).build());
 
 

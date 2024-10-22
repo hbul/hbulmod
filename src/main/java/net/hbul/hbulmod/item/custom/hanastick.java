@@ -1,14 +1,12 @@
 package net.hbul.hbulmod.item.custom;
 
-import net.minecraft.client.multiplayer.ClientLevel;
+import net.hbul.hbulmod.block.ModBlocks;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
@@ -23,8 +21,9 @@ public class hanastick extends Item {
                     Blocks.GRASS_BLOCK, Blocks.NETHERITE_BLOCK,
                     Blocks.DEEPSLATE, Blocks.DEEPSLATE_BRICKS,
                     Blocks.GOLD_BLOCK, Blocks.IRON_BLOCK,
-                    Blocks.IRON_BLOCK, Blocks.STONE,
-                    Blocks.NETHERRACK,Blocks.IRON_BLOCK
+                    Blocks.DIAMOND_BLOCK, ModBlocks.HB_BLOCK.get(),
+                    Blocks.DEEPSLATE_DIAMOND_ORE,ModBlocks.HB_ORE.get(),
+                    Blocks.DIAMOND_ORE,ModBlocks.HB_ORE.get()
                     );
 
 
