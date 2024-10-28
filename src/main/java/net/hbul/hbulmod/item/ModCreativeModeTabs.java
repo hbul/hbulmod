@@ -1,8 +1,10 @@
 package net.hbul.hbulmod.item;
 
 import net.hbul.hbulmod.HbulMod;
+import net.hbul.hbulmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 import net.neoforged.bus.api.IEventBus;
@@ -43,7 +45,25 @@ public class ModCreativeModeTabs {
                         output.accept(Modsitem.SUNDER_HELMET);
                         output.accept(Modsitem.SUNDER_LEGGINGS);
 
+
+
                     }).build());
+    public static final Supplier<CreativeModeTab> HBGOD_BLOCK_TAB = CREATIVE_MODE_TAB.register("hbgod_blocks_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.HB_BLOCK))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(HbulMod.MODID, "hbgod_items_tab"))
+                    .title(Component.translatable("creativetab.hbulmod.hbgod_blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.HB_BLOCK);
+                        output.accept(ModBlocks.HB_ORE);
+
+                        output.accept(ModBlocks.HB_STAIR);
+                        output.accept(ModBlocks.HB_BUTTON);
+                        output.accept(ModBlocks.HB_SLAB);
+                        output.accept(ModBlocks.HB_PRESSURE_PLATE);
+                        output.accept(ModBlocks.HB_DOOR);
+
+                    }).build());
+
 
 
     public static void register(IEventBus eventBus) {

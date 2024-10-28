@@ -22,7 +22,14 @@
   "item.hbulmod.sunder_helmet": "フラッシュヘルメット",
   "item.hbulmod.sunder_chestplate": "フラッシュチェストプレート",
   "item.hbulmod.sunder_leggings": "フラッシュレギンス",
-  "item.hbulmod.sunder_boots": "フラッシュブーツ"
+  "item.hbulmod.sunder_boots": "フラッシュブーツ",
+  "creativetab.hbulmod.hbgod_blocks": "HB BLOCKS",
+  "block.hbulmod.hb_stair": "HB stair",
+  "block.hbulmod.hb_button": "HB button",
+  "block.hbulmod.hb_slab": "HB slab",
+  "block.hbulmod.hb_door": "HB door",
+  "block.hbulmod.hb_presshure_plate": "HB presshure plate",
+  "item.hbulmod.mizu": "水の音色"
 }
 
 

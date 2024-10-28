@@ -22,5 +22,12 @@
   "item.hbulmod.sunder_helmet": "sunder_helmet",
   "item.hbulmod.sunder_chestplate": "sunder_chestplate",
   "item.hbulmod.sunder_leggings": "sunder_leggings",
-  "item.hbulmod.sunder_boots": "sunder_boots"
+  "item.hbulmod.sunder_boots": "sunder_boots",
+  "creativetab.hbulmod.hbgod_blocks": "HB BLOCKS",
+  "block.hbulmod.hb_stair": "HB_STAIR",
+  "block.hbulmod.hb_button": "HB_BUTTON",
+  "block.hbulmod.hb_stair": "HB_SLAB",
+  "block.hbulmod.hb_stair": "HB_DOOR",
+  "block.hbulmod.hb_presshure_plate": "HB_PRESSHURE_PLATE",
+  "item.hbulmod.mizu": "mizu"
 }
